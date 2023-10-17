@@ -42,6 +42,7 @@
 
 		h1 {
 			font-size: 3.25em;
+			text-align: center;
 		}
 
 		> .inner {
@@ -54,6 +55,7 @@
 			padding: 0 !important;
 			position: relative;
 			z-index: 2;
+			text-align: center;
 
 			.image {
 				display: none;
