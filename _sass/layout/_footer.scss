@@ -28,12 +28,19 @@
 			}
 		}
 
+		text-align: center;
+
+		.inner{
+			display: inline-flex;
+			align-content: space-between;
+		}
+
 		@include breakpoint(xsmall) {
 			.copyright {
 				li {
-					display: block;
+					display: flex;
 					border-left: 0;
-					margin-left: 0;
+					margin-left: 2em;
 					padding-left: 0;
 					line-height: inherit;
 				}
