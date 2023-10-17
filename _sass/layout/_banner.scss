@@ -10,7 +10,7 @@
 		@include vendor('align-items', 'center');
 		@include vendor('background-image', 'url("../images/banner.jpg")');
 		@include vendor('display', 'flex');
-		@include padding(4em, 0, (0, 0, 0, 0));
+		@include padding(4em, 0, (0.5em, 0, 0, 0));
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -130,7 +130,7 @@
 		}
 
 		@include breakpoint(small) {
-			@include padding(3em, 0, (0.5em, 0, 0, 0));
+			@include padding(3em, 0, (2em, 0, 0, 0));
 			height: auto;
 			margin-bottom: -2.75em;
 			max-height: none;
@@ -160,7 +160,7 @@
 		}
 
 		@include breakpoint(xsmall) {
-			@include padding(4em, 0, (0.5em, 0, 0, 0));
+			@include padding(4em, 0, (2em, 0, 0, 0));
 
 			> .inner {
 				.content {
@@ -173,7 +173,7 @@
 			}
 
 			&.major {
-				@include padding(6em, 0, (0.5em, 0, 0, 0));
+				@include padding(6em, 0, (2em, 0, 0, 0));
 			}
 		}
 	}
