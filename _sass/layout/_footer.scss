@@ -28,13 +28,6 @@
 			}
 		}
 
-		text-align: center;
-
-		.inner{
-			display: inline-flex;
-			align-content: space-between;
-		}
-
 		@include breakpoint(xsmall) {
 			.copyright {
 				li {
