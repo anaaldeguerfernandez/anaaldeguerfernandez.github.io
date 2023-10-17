@@ -30,13 +30,13 @@
 
 		.breadcrumb{
 			display: flex;
-			justify-content: center;
+			justify-content: space-around;
 			margin: 4em 0 0 0;
 		}
 
 		.inner{
 			display: flex;
-			justify-content: space-between;
+			justify-content: center;
 		}
 
 		@include breakpoint(xsmall) {
