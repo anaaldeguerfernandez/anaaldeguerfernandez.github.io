@@ -15,11 +15,25 @@ Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio
 </section>
 
 <section class="special" id="three">
-<a href="./../CV_Ana-Aldeguer-Fernandez_Eng.pdf" class="image" download="CV_Ana-Aldeguer-Fernandez_Eng.pdf">
+<section class="spotlights">
+		<a href="./../CV_Ana-Aldeguer-Fernandez_Eng.pdf" class="image" download="CV_Ana-Aldeguer-Fernandez_Eng.pdf">
 			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
 		</a>
 
-<ul class="actions">
-			<li><a href="./../CV_Ana-Aldeguer-Fernandez_Eng.pdf" class="button" download="CV_Ana-Aldeguer-Fernandez_Eng.pdf">Download Resume</a></li>
-		</ul>
+        <ul class="actions">
+    		<li><a href="./../CV_Ana-Aldeguer-Fernandez_Eng.pdf" class="button" download="CV_Ana-Aldeguer-Fernandez_Eng.pdf">Download Resume</a></li>
+    	</ul>
+    	<div class="content">
+    		<div class="inner">
+    			<a href="./../CV_Ana-Aldeguer-Fernandez_Esp.pdf" class="image" download="CV_Ana-Aldeguer-Fernandez_Esp.pdf">
+    		<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
+    	</a>
+
+        <ul class="actions">
+    		<li><a href="./../CV_Ana-Aldeguer-Fernandez_Esp.pdf" class="button" download="CV_Ana-Aldeguer-Fernandez_Esp.pdf">Descargar currículum</a></li>
+    	</ul>
+    		</div>
+    	</div>
+        </section>
+
 </section>
