@@ -17,8 +17,9 @@
 			display: flex;
 		}
 		&.inner{
-			padding: 2em;
-
+			> a{padding: 2em;
+			}
+			
 			> ul{
 				margin-top: 2em;
 			}
