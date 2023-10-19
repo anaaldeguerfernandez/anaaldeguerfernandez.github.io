@@ -3,6 +3,7 @@ layout: about
 title: About
 image: assets/images/pic11.jpg
 nav-menu: true
+show_tile: false
 ---
 
 <section id="one">
