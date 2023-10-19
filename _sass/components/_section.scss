@@ -16,8 +16,8 @@
 			text-align: center;
 			display: flex;
 
-			&.content{
-				padding: 0 2em;
+			&.inner{
+				padding: 0 2em !important;
 
 				> ul{
 					margin-top: 2em;
