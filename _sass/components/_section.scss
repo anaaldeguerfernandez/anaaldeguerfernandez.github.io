@@ -9,6 +9,10 @@
 	section, article {
 		&.special {
 			text-align: center;
+
+			>ul{
+				margin-top: 2em;
+			}
 		}
 	}
 
