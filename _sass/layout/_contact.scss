@@ -10,10 +10,6 @@
 		border-bottom: solid 1px _palette(border);
 		overflow-x: hidden;
 
-		> h1,h4{
-			padding-left: 3em !important;
-		}
-
 		> .inner {
 			@include vendor('display', 'flex');
 			padding: 0 !important;
