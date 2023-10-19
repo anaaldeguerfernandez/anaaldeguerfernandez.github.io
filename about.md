@@ -1,6 +1,7 @@
 ---
 layout: about
 title: About
+image: assets/images/pic11.jpg
 nav-menu: true
 ---
 

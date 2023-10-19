@@ -5,21 +5,21 @@
   <body>
     {% include header.html %}
 
-    <section id="banner" class="style2">
-      <div class="inner">
-        <span class="image">
-          <img src="{{ site.baseurl }}/{{ page.image }}" alt="" />
-        </span>
-        <header class="major">
-          <h1>{{ page.title }}</h1>
-        </header>
-        <div class="content">
-          <img src="{{ site.baseurl }}/{{ page.image }}" alt="" />
-          {{ page.description }}
+    <!-- Main -->
+    <div id="main" class="alt">
+      <!-- One -->
+      <section id="one">
+        <div class="inner">
+          <header class="major">
+            <h1>{{ page.title }}</h1>
+          </header>
+          {% if page.image %}<span class="image main"
+            ><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span
+          >{% endif %} {{ content }}
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
-    {{ content }} {% include footer.html %}
+    {% include footer.html %}
   </body>
 </html>
