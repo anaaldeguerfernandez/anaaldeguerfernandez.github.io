@@ -12,8 +12,12 @@
 			text-align: center;
 			display: flex;
 
-			>ul{
-				margin-top: 2em;
+			&.inner{
+				padding: 0 2em;
+				
+				>ul{
+					margin-top: 2em;
+				}
 			}
 		}
 	}
