@@ -16,13 +16,13 @@
 			text-align: center;
 			display: flex;
 		}
-		&.inner{
-			> a{padding: 2em;
-			}
-			
+		> div{
+			&.inner{
+				padding: 2em;
+
 			> ul{
 				margin-top: 2em;
-			}
+			}}
 		}
 	}
 
@@ -32,7 +32,7 @@
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
-      max-width: 100%;
+      		max-width: 100%;
 			margin-bottom: _size(element-margin);
 
 			> :first-child {
