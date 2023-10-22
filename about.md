@@ -10,9 +10,9 @@ show_tile: false
 <h2>Who am I</h2>
 
 <!-- Blockquote -->
-<blockquote>I love to help people and to help making the world better. I believe in the potential of design to achieve those things. I believe in a design process focused on the user from beggining to end that makes people feel included and close to the constantly evolving society.</blockquote>
+<blockquote>I love to help people and make the world better. I believe in the potential of design to achieve those things. I believe in a design process focused on the user from beggining to end that makes people feel included and close to the constantly evolving society.</blockquote>
 
-My name is Ana, and I'm a graphic designer, UI/UX designer, and a front-end developer. I love creativity and art, and discover new forms to know the world and learn about its habitants. Some people describe me as a very peaceful person, other describe me as an earthquake, I guess both are right.
+My name is Ana, and I'm a graphic designer, UI/UX designer, and front-end developer. I love creativity and art, and discover new forms to know the world and learn about its inhabitants. Some people describe me as a very peaceful person, other people describe me as an earthquake, I guess both are right.
 
 In my free time, I love to be in connection with nature, deepen connections with people, make art, cook, observe the world and discover new hobbies.
 
