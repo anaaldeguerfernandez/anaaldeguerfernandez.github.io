@@ -10,9 +10,11 @@ show_tile: false
 <h2>Who am I</h2>
 
 <!-- Blockquote -->
-<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.</blockquote>
+<blockquote>I love to help people and to help making the world better. I believe in the potential of design to achieve those things. I believe in a design process focused on the user from beggining to end that makes people feel included and close to the constantly evolving society.</blockquote>
 
-Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.
+My name is Ana, and I'm a graphic designer, UI/UX designer, and a front-end developer. I love creativity and art, and discover new forms to know the world and learn about its habitants. Some people describe me as a very peaceful person, other describe me as an earthquake, I guess both are right.
+
+In my free time, I love to be in connection with nature, deepen connections with people, make art, cook, observe the world and discover new hobbies.
 
 </section>
 
