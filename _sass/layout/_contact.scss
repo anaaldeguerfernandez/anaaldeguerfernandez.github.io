@@ -6,7 +6,10 @@
 
 /* Contact */
 h1, h4 {
-	margin: 0 0 0 6vw;
+	padding: 4em 0 2em 0;
+	max-width: 65em;
+	width: calc(100% - 6em);
+	//margin: 0 0 0 6vw;
 }
 
 	#contact {
