@@ -40,10 +40,14 @@
 			z-index: 1;
 		}
 
-		h1, div > p {
+		h1 {
 			font-size: 3.25em;
 			text-align: center;
 			margin-bottom: 0.2em;
+			color: #800080;
+		}
+
+		div > p{
 			color: #800080;
 		}
 		
