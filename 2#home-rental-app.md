@@ -1,5 +1,5 @@
 ---
-layout: allposts
+layout: rentingWebsite
 title: Home rental app
 landing-title: "Home Rental app"
 nav-menu: true

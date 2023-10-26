@@ -1,5 +1,5 @@
 ---
-layout: allposts
+layout: firstAidApp
 title: First Aid app
 landing-title: "First Aid app"
 nav-menu: true
