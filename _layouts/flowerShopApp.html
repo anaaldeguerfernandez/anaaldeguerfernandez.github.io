@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!--
+    Forty by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  -->
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <!-- Main -->
+    <div id="main" class="alt">
+      <!-- One -->
+      <section id="one">
+        <div class="inner">
+          {% for post in site.posts %} {% if post.title != 404 %}
+          <header class="major">
+            <h1>Flower Shop Catalog</h1>
+          </header>
+          {% if post.image %}<span class="image main"
+            ><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span
+          >{% endif %}
+          <p>Project intro</p>
+          {% endif %} {% endfor %}
+        </div>
+      </section>
+      <!-- Intro -->
+      <section>
+        <div class="row">
+          <div class="3u 12u$(small)">
+            <h3>Challenge</h3>
+            <p>In arcu accums</p>
+          </div>
+          <div class="3u 12u$(small)">
+            <h3>Solution</h3>
+            <p>In arcu accums</p>
+          </div>
+          <div class="3u 12u$(small)">
+            <h3>My role</h3>
+            <p>In arcu accums</p>
+          </div>
+          <div class="3u 12u$(small)">
+            <h3>Date</h3>
+            <p>In arcu accums</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>Process summary</h2>
+        <div class="row">
+          <div class="2u 12u$(small)">
+            <h3>Empathize</h3>
+            <p>In arcu accums</p>
+          </div>
+          <div class="2u 12u$(small)">
+            <h3>Define</h3>
+            <p>In arcu accums</p>
+          </div>
+          <div class="2u 12u$(small)">
+            <h3>Ideate</h3>
+            <p>In arcu accums</p>
+          </div>
+          <div class="2u 12u$(small)">
+            <h3>Prototype</h3>
+            <p>In arcu accums</p>
+          </div>
+          <div class="2u 12u$(small)">
+            <h3>Test</h3>
+            <p>In arcu accums</p>
+          </div>
+        </div>
+      </section>
+      <!-- Empathizing -->
+      <section>
+        <h2>Empathizing</h2>
+        <h3>Personas</h3>
+        <!-- Persona 1 -->
+        <div class="row">
+          <div class="4u 12u$(small)">
+            <img src="" alt="Persona 1 image" />
+          </div>
+          <div class="4u 12u$(small)">
+            <h4>Goals</h4>
+            <p>Text.</p>
+
+            <h4>Motivations</h4>
+            <p>Text.</p>
+
+            <h4>Frustrations</h4>
+            <p>Text.</p>
+          </div>
+          <div class="4u 12u$(small)">
+            <blockquote>
+              Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
+              sagittis eget tempus euismod. Vestibulum ante ipsum primis in
+              faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat
+              ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in
+              faucibus vestibulum. Blandit adipiscing eu felis.
+            </blockquote>
+            <h4>Bio</h4>
+            <p>Text.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="3u 12u$(small)">
+            <h4>Pain point 1</h4>
+            <p>Text.</p>
+          </div>
+          <div class="3u 12u$(small)">
+            <h4>Pain point 2</h4>
+            <p>Text.</p>
+          </div>
+          <div class="3u 12u$(small)">
+            <h4>Pain point 3</h4>
+            <p>Text.</p>
+          </div>
+          <div class="3u 12u$(small)">
+            <h4>Pain point 4</h4>
+            <p>Text.</p>
+          </div>
+        </div>
+        <!-- Persona 2 -->
+        <div class="row">
+          <div class="4u 12u$(small)">
+            <img src="" alt="Persona 2 image" />
+          </div>
+          <div class="4u 12u$(small)">
+            <h4>Goals</h4>
+            <p>Text.</p>
+
+            <h4>Motivations</h4>
+            <p>Text.</p>
+
+            <h4>Frustrations</h4>
+            <p>Text.</p>
+          </div>
+          <div class="4u 12u$(small)">
+            <blockquote>
+              Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
+              sagittis eget tempus euismod. Vestibulum ante ipsum primis in
+              faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat
+              ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in
+              faucibus vestibulum. Blandit adipiscing eu felis.
+            </blockquote>
+            <h4>Bio</h4>
+            <p>Text.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="3u 12u$(small)">
+            <h4>Pain point 1</h4>
+            <p>Text.</p>
+          </div>
+          <div class="3u 12u$(small)">
+            <h4>Pain point 2</h4>
+            <p>Text.</p>
+          </div>
+          <div class="3u 12u$(small)">
+            <h4>Pain point 3</h4>
+            <p>Text.</p>
+          </div>
+          <div class="3u 12u$(small)">
+            <h4>Pain point 4</h4>
+            <p>Text.</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>Process</h2>
+        <!-- Digital wireframes -->
+        <h3>Digital wireframes</h3>
+        <p>Images content</p>
+        <h3>Low fidelity prototype</h3>
+        <p>Prototipo incrustado</p>
+        <h3>Key findings</h3>
+        <div class="row">
+          <div class="6u 12u$(small)">
+            <p>Findings content.</p>
+          </div>
+          <div class="6u 12u$(small)">
+            <p>Findings content.</p>
+          </div>
+        </div>
+        <h3>Key insights</h3>
+        <div class="row">
+          <div class="6u 12u$(small)">
+            <p>Findings content.</p>
+          </div>
+          <div class="6u 12u$(small)">
+            <p>Findings content.</p>
+          </div>
+        </div>
+        <h3>High fidelity prototype</h3>
+        <p>Prototipo incrustado</p>
+        <p>Imágenes de pantallas destacadas explicando funcionalidad</p>
+      </section>
+      <section>
+        <h2>Impact</h2>
+        <p>Text.</p>
+      </section>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>
