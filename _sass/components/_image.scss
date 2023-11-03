@@ -8,6 +8,10 @@
 
 img {
     max-width: 100%;
+
+	&.round{
+		border-radius: 20px;
+	}
 }
 
 .image {
@@ -17,10 +21,6 @@ img {
 
 		img {
 			display: block;
-		}
-
-		&.round{
-			border-radius: 20px;
 		}
 
 		&.left,
