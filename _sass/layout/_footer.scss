@@ -20,6 +20,10 @@
 				margin-left: 1em;
 				padding-left: 1em;
 
+				& a > h4{
+					margin: 0 !important;
+				}
+
 				&:first-child {
 					border-left: 0;
 					margin-left: 0;
