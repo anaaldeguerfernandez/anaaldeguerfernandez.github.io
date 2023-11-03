@@ -63,4 +63,8 @@ img {
 				margin: (_size(element-margin) * 0.75) 0;
 			}
 		}
+
+		&.round{
+			border-radius: 20px;
+		}
 	}
