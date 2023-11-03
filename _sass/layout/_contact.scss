@@ -9,6 +9,11 @@ h1, h4 {
 	max-width: 65em;
 	width: calc(100% - 6em);
 	margin: 6vw 0 0 9vw;
+
+	& .feature {
+		width: auto;
+		margin: 0;
+	}
 }
 
 	#contact {
