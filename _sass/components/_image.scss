@@ -12,6 +12,10 @@ img {
 	&.round{
 		border-radius: 20px;
 	}
+
+	&.featureImg{
+		height: 480px;
+	}
 }
 
 .image {
