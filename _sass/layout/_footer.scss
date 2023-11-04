@@ -21,12 +21,15 @@
 				padding-left: 1em;
 				text-align: center;
 
-				& a > h4{
+				& a {
+					h4{
 					margin: 0 !important;
-				}
-
-				& p {
 					text-align: center;
+					}
+					
+					p {
+					text-align: center;
+					}
 				}
 
 				&:first-child {
