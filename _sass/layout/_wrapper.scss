@@ -13,6 +13,7 @@
 			'opacity 0.375s ease-out'
 		));
 		padding-top: 3.25em;
+		background-color: _palette(custom-bg-light);
 
 		&.is-transitioning {
 			opacity: 0;
