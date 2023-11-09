@@ -42,7 +42,7 @@
 					'color #{_duration(transition)} ease-in-out'
 				));
 				background-color: _palette(fg-bold);
-				color: _palette(bg);
+				color: _palette(fg);
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
@@ -78,6 +78,7 @@
 				padding: 0 0.75em;
 				position: relative;
 				vertical-align: middle;
+				color: white;
 
 				&:last-child {
 					padding-right: 1.5em;
