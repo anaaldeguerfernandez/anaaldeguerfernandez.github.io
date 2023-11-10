@@ -14,6 +14,7 @@
 	#header {
 		@include vendor('display', 'flex');
 		background-color: _palette(blue-green);
+		color: _palette(fg);
 		box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.15);
 		cursor: default;
 		font-weight: _font(weight-bold);
@@ -48,6 +49,10 @@
 				line-height: 1.65em;
 				margin-right: 0.325em;
 				padding: 0 0.125em 0 (_font(letter-spacing-alt) + 0.125em);
+			}
+
+			span {
+				color: _palette(custom-text);
 			}
 
 			&:hover {
@@ -113,13 +118,9 @@
 					&:hover, &:active {
 						&:after {
 							opacity: 1;
-							color: _palette(light-red);
-						}
-						color: _palette(blue-green);
-
-						&:hover{
 							color: _palette(custom-text);
 						}
+						color: _palette(blue-green);
 					}
 
 					&:last-child {
@@ -144,7 +145,7 @@
 			background-color: transparent;
 			box-shadow: none;
 			position: absolute;
-			color: _palette(fg);
+			color: _palette();
 
 			&.style1 { .logo { strong { color: _palette(accent1); } } }
 			&.style2 
