@@ -37,7 +37,8 @@
 
 			&:hover {
 				&:before {
-					background-color: _palette(accent1);
+					background-color: _palette(custom-text);
+					color: _palette(custom-bg-light);
 				}
 			}
 

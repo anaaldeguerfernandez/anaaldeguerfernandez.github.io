@@ -52,13 +52,13 @@
 
 			&:hover {
 				strong {
-					background-color: _palette(highlight);
+					color: _palette(light-red);
 				}
 			}
 
 			&:active {
 				strong {
-					background-color: desaturate(darken(_palette(highlight), 15), 5);
+					color: desaturate(darken(_palette(light-red), 15), 5);
 				}
 			}
 		}
