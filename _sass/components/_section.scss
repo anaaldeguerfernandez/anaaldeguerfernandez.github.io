@@ -16,6 +16,9 @@
 			text-align: center;
 			display: flex;
 		}
+		&.blue {
+			background-color: _palette(azure);
+		}
 		> div{
 			&.inner{
 				padding: 2em;
