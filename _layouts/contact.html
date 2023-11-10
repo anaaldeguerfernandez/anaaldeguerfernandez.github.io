@@ -9,15 +9,15 @@
 
   <body>
     {% include header.html %}
+
     <div class="inner">
-      <header class="major inner">
+      <header class="major">
         <h1>Contact</h1>
       </header>
-      <h4 class="inner">
-        Available for collaborations, projects & good conversations.
-      </h4>
-
-      <section id="contact">
+      <h4>Available for collaborations, projects & good conversations.</h4>
+    </div>
+    <section id="contact">
+      <div class="inner">
         <section>
           <img
             src="./../contact-image.jpg"
@@ -55,8 +55,9 @@
             </ul>
           </form>
         </section>
-      </section>
-    </div>
+      </div>
+    </section>
+
     {{ content }} {% include footer.html %}
   </body>
 </html>
