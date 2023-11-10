@@ -11,6 +11,18 @@
 		background-color: _palette(blue-green);
 		color: _palette(fg);
 
+		li a {
+			h4{
+			margin: 0 !important;
+			text-align: center;
+			color: _palette(fg);
+			}
+			
+			p {
+			text-align: center;
+			}
+		}
+
 		.copyright {
 			font-size: 0.8em;
 			list-style: none;
@@ -23,18 +35,6 @@
 				margin-left: 1em;
 				padding-left: 1em;
 				text-align: center;
-
-				a {
-					h4{
-					margin: 0 !important;
-					text-align: center;
-					color: _palette(fg);
-					}
-					
-					p {
-					text-align: center;
-					}
-				}
 
 				&:first-child {
 					border-left: 0;
