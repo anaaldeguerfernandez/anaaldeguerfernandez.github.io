@@ -113,9 +113,13 @@
 					&:hover, &:active {
 						&:after {
 							opacity: 1;
-							color: _palette(custom-text);
+							color: _palette(light-red);
 						}
 						color: _palette(blue-green);
+
+						&:hover{
+							color: _palette(custom-text);
+						}
 					}
 
 					&:last-child {
@@ -140,6 +144,7 @@
 			background-color: transparent;
 			box-shadow: none;
 			position: absolute;
+			color: _palette(fg);
 
 			&.style1 { .logo { strong { color: _palette(accent1); } } }
 			&.style2 
