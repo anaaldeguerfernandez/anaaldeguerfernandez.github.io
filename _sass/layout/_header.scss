@@ -79,7 +79,7 @@
 				padding: 0 0.75em;
 				position: relative;
 				vertical-align: middle;
-				color: _palette(blue-green);
+				color: _palette(fg);
 
 				&:last-child {
 					padding-right: 1.5em;
@@ -113,6 +113,7 @@
 					&:hover, &:active {
 						&:after {
 							opacity: 1;
+							color: _palette(blue-green);
 						}
 					}
 

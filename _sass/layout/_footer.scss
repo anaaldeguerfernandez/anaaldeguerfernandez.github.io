@@ -20,6 +20,10 @@
 			p {
 			text-align: center;
 			}
+
+			&:hover{
+				color: _palette(custom-text);
+			}
 		}
 
 		.copyright {
