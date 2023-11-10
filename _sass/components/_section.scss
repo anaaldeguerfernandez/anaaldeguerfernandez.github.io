@@ -8,6 +8,9 @@
 
 	article {
 		margin: 2em 0;
+		&.light {
+			background-color: _palette(custom-bg-light);
+		}
 	}
 
 	section {
