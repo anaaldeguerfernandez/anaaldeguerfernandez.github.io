@@ -1,11 +1,11 @@
 ---
 layout: rentingWebsite
 title: Home rental app
-landing-title: "Home Rental app"
+landing-title: "HouseHold"
 nav-menu: true
-description:
-image: assets/images/HouseHold-index-image.png
+description: "Rent your new house."
+image: assets/images/HouseHold-index.png
 author: null
 ---
 
-<h1>Home Rental app</h1>
+<h1>HouseHold</h1>

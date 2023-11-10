@@ -83,6 +83,10 @@
 
 	h1 {
 		font-size: 2.5em;
+
+		&.index {
+			color: _palette(fg);
+		}
 	}
 
 	h2 {
