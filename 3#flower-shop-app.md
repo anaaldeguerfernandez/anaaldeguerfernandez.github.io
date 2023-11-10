@@ -3,7 +3,7 @@ layout: flowerShopApp
 title: Flower Shop app
 landing-title: "Flower Shop app"
 nav-menu: true
-description: "An app to customize your bouquets orders and receive them easily."
+description:
 image: assets/images/Bloom-index-image.png
 author: null
 ---
