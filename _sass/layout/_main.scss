@@ -19,11 +19,16 @@
 			@include inner;
 		}
 
+		&nav > a {
+			color: _palette(blue-green);
+
+			&:hover{
+				color: _palette(light-red);
+			}
+		}
+
 		&.alt {
 			background-color: palette(fg);
 			border-bottom: solid 1px _palette(border);
-			& nav > a {
-				color: _palette(blue-green);
-			}
 		}
 	}

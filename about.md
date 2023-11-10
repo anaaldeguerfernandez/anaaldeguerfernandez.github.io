@@ -32,7 +32,7 @@ In my free time, I love to be in connection with nature, deepen connections with
 			<img src="./../CV_eng.png" alt="CV - english" data-position="25% 25%" />
 		</a>
         <ul class="actions">
-    		<li><a href="./../CV_Ana-Aldeguer-Fernandez_Eng.pdf" class="button" download="CV_Ana-Aldeguer-Fernandez_Eng.pdf">Download Resume</a></li>
+    		<li><a href="./../CV_Ana-Aldeguer-Fernandez_Eng.pdf" class="button download" download="CV_Ana-Aldeguer-Fernandez_Eng.pdf">Download Resume</a></li>
     	</ul>
     </div>
 
@@ -41,7 +41,7 @@ In my free time, I love to be in connection with nature, deepen connections with
     		<img src="./../CV_esp.png" alt="CV - español" data-position="25% 25%" />
     	</a>
         <ul class="actions">
-    		<li><a href="./../CV_Ana-Aldeguer-Fernandez_Esp.pdf" class="button" download="CV_Ana-Aldeguer-Fernandez_Esp.pdf">Descargar currículum</a></li>
+    		<li><a href="./../CV_Ana-Aldeguer-Fernandez_Esp.pdf" class="button download" download="CV_Ana-Aldeguer-Fernandez_Esp.pdf">Descargar currículum</a></li>
     	</ul>
     	</div>
 

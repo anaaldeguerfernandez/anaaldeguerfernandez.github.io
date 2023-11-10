@@ -44,21 +44,22 @@
 			font-size: 3.25em;
 			text-align: center;
 			margin-bottom: 0.2em;
-			color: #800080;
+			color: _palette(murrey);
 		}
 
 		div > p{
-			color: #800080;
+			color: _palette(murrey);
 		}
 		
 		li > a {
-			color: #800080;
-			box-shadow: inset 0 0 0 2px #800080;
+			color: _palette(murrey);
+			box-shadow: inset 0 0 0 2px _palette(murrey);
+			border-radius: 6px;
 		}
 
 		li > a:hover{
 			color: white !important;
-			background-color: #800080;
+			background-color: _palette(murrey);
 		}
 
 
