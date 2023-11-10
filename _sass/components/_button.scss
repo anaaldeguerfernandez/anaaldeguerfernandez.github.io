@@ -52,7 +52,7 @@
 
 			&:hover {
 				background-color: _palette(light-red);
-				color: _palette(fg);
+				color: _palette(fg) !important;
 			}
 		}
 

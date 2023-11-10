@@ -48,7 +48,7 @@
 		}
 
 		&:active {
-			color: desaturate(darken(_palette(highlight), 15), 5) !important;
+			color: desaturate(darken(_palette(light-red), 15), 5) !important;
 		}
 	}
 
