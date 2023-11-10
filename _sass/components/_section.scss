@@ -12,12 +12,12 @@
 
 	section {
 		margin-top: 2em;
+		&.blue {
+			background-color: _palette(azure);
+		}
 		&.special {
 			text-align: center;
 			display: flex;
-		}
-		&.blue {
-			background-color: _palette(azure);
 		}
 		> div{
 			&.inner{

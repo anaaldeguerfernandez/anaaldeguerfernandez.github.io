@@ -37,8 +37,14 @@
 		text-decoration: none;
 
 		&:hover {
+			&.logo{
+				color: _palette(light-red) !important;
+			}
+			&.nav > a{
+				color: _palette(custom-text) !important;
+			}
 			border-bottom-color: transparent;
-			color: _palette(light-red) !important;
+			color: _palette(blue-green) !important;
 		}
 
 		&:active {
