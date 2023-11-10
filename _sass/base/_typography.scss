@@ -40,7 +40,7 @@
 			&.logo{
 				color: _palette(light-red) !important;
 			}
-			&.nav > a{
+			&nav > a{
 				color: _palette(custom-text) !important;
 			}
 			border-bottom-color: transparent;
@@ -132,7 +132,7 @@
 	}
 
 	blockquote {
-		border-left: solid 4px _palette(border);
+		border-left: solid 4px _palette(emerald);
 		font-style: italic;
 		margin: 0 0 _size(element-margin) 0;
 		padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
