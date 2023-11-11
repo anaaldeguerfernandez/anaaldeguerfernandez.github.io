@@ -145,7 +145,7 @@
 			background-color: transparent;
 			box-shadow: none;
 			position: absolute;
-			color: _palette();
+			color: _palette(blue-green);
 
 			&.style1 { .logo { strong { color: _palette(accent1); } } }
 			&.style2 
