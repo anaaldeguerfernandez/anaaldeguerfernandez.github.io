@@ -79,8 +79,12 @@
 				padding: 0 0.75em;
 				position: relative;
 				vertical-align: middle;
-				color: _palette(blue-green);
+				color: _palette(fg);
 
+				&:hover{
+					color: _palette(custom-text);
+				}
+				
 				&:last-child {
 					padding-right: 1.5em;
 				}
@@ -116,10 +120,6 @@
 							color: _palette(light-red);
 						}
 						color: _palette(blue-green);
-
-						&:hover{
-							color: _palette(custom-text);
-						}
 					}
 
 					&:last-child {
@@ -144,7 +144,10 @@
 			background-color: transparent;
 			box-shadow: none;
 			position: absolute;
-			color: _palette(fg);
+			color: _palette(custom-text);
+			&:hover{
+				color: palette(light-red) !important;
+			} 
 
 			&.style1 { .logo { strong { color: _palette(accent1); } } }
 			&.style2 
@@ -152,9 +155,7 @@
 		nav > a {
 			color: _palette(blue-green);
 
-			&:hover{
-				color: palette(custom-text);
-			} 
+			
 		}
 		}
 			&.style3 { .logo { strong { color: _palette(accent3); } } }
