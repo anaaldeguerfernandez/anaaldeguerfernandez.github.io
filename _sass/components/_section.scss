@@ -11,16 +11,16 @@
 		&.light {
 			background-color: _palette(custom-bg-light);
 		}
+		
+		&.artDownload{
+			display: grid;
+			justify-content: center;
+		}
 
 		a {
 			&:hover {
 				color: _palette(light-red);
-			}
-
-			&.artDownload{
-				display: grid;
-				justify-content: center;
-			}
+			}			
 		}
 	}
 
