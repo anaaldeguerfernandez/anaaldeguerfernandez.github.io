@@ -62,6 +62,12 @@
 
 	p {
 		margin: 0 0 _size(element-margin) 0;
+
+		a {
+			&:hover {
+				color: _palette(light-red);
+			}
+		}
 	}
 
 	blockquote > p {
