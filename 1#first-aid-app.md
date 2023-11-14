@@ -1,11 +1,11 @@
 ---
 layout: firstAidApp
-title: First Aid app
-landing-title: "First Aid app"
+title: Aprende Primeros Auxilios
+landing-title: "Aprende Primeros Auxilios"
 nav-menu: true
-description:
-image: assets/images/First-aid_index.png
+description: "Learn about first aid and assist emergencies easier."
+image: assets/images/FirstAid_index.png
 author: null
 ---
 
-<h1>First Aid app</h1>
+<h1>Aprende Primeros Auxilios</h1>

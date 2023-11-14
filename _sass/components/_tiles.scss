@@ -45,14 +45,19 @@
 				z-index: 3;
 			}
 
-			h3 {
-				font-size: 1.75em;
+			h2 {
+				font-size: 2em;
+				color: _palette(fg)
 
 				a {
 					&:hover {
-						color: inherit !important;
+						color: transparent !important;
 					}
 				}
+			}
+
+			p {
+				color: _palette(fg);
 			}
 
 			.link.primary {
@@ -74,7 +79,7 @@
 				left: 0;
 				opacity: 0.85;
 				position: absolute;
-				width: 100%;
+				width: 40%;
 				z-index: 2;
 			}
 
@@ -109,19 +114,19 @@
 
 			&:nth-child(6n - 5) {
 				&:before {
-					background-color: _palette(accent1);
+					background-color: _palette(blue-green);
 				}
 			}
 
 			&:nth-child(6n - 4) {
 				&:before {
-					background-color: _palette(accent2);
+					background-color: _palette(emerald);
 				}
 			}
 
 			&:nth-child(6n - 3) {
 				&:before {
-					background-color: _palette(accent3);
+					background-color: _palette(light-red);
 				}
 			}
 

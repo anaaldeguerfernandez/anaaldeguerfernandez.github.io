@@ -1,11 +1,11 @@
 ---
 layout: flowerShopApp
-title: Flower Shop app
-landing-title: "Flower Shop app"
+title: Bloom
+landing-title: "Bloom"
 nav-menu: true
-description:
+description: "Customize your bouquets orders and receive them easily."
 image: assets/images/Bloom-index.png
 author: null
 ---
 
-<h1>Flower Shop app</h1>
+<h1>Bloom</h1>
