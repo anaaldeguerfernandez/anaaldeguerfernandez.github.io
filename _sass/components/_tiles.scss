@@ -47,13 +47,7 @@
 
 			h2 {
 				font-size: 2em;
-				color: _palette(fg)
-
-				a {
-					&:hover {
-						color: transparent !important;
-					}
-				}
+				color: _palette(fg);
 			}
 
 			p {
@@ -77,7 +71,7 @@
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 0.75;
 				position: absolute;
 				width: 40%;
 				z-index: 2;
@@ -97,7 +91,7 @@
 
 			&:hover {
 				&:before {
-					opacity: 0;
+					opacity: 0.90;
 				}
 			}
 
