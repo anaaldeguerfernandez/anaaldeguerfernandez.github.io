@@ -4,7 +4,7 @@ title: Flower Shop app
 landing-title: "Flower Shop app"
 nav-menu: true
 description:
-image: assets/images/Bloom-index-image.png
+image: assets/images/Bloom-index.png
 author: null
 ---
 

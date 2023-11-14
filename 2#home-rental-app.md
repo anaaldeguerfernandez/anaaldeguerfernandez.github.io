@@ -4,7 +4,7 @@ title: Home rental app
 landing-title: "Home Rental app"
 nav-menu: true
 description:
-image: assets/images/HouseHold-index-image.png
+image: assets/images/HouseHold-index.png
 author: null
 ---
 

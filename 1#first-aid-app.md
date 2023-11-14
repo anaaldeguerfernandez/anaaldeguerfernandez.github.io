@@ -4,7 +4,7 @@ title: First Aid app
 landing-title: "First Aid app"
 nav-menu: true
 description:
-image: assets/images/First-aid_index_image.png
+image: assets/images/First-aid_index.png
 author: null
 ---
 
