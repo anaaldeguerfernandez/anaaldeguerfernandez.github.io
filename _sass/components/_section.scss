@@ -11,6 +11,12 @@
 		&.light {
 			background-color: _palette(custom-bg-light);
 		}
+
+		a {
+			&:hover {
+				color: _palette(light-red);
+			}
+		}
 	}
 
 	section {
