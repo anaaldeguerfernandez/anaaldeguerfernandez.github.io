@@ -79,10 +79,10 @@
 				padding: 0 0.75em;
 				position: relative;
 				vertical-align: middle;
-				color: _palette(custom-text);
+				color: _palette(fg);
 
 				&:hover{
-					color: _palette(light-red);
+					color: _palette(custom-text);
 				}
 				
 				&:last-child {
