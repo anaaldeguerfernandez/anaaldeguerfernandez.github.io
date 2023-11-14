@@ -16,6 +16,11 @@ img {
 	&.featureImg{
 		height: 480px;
 	}
+	
+	&.logo{
+		height: 3em;
+		vertical-align: middle;
+	}
 }
 
 .image {
@@ -70,9 +75,5 @@ img {
 			@include breakpoint(small) {
 				margin: (_size(element-margin) * 0.75) 0;
 			}
-		}
-
-		&.logo{
-			height: 3.25em;
 		}
 	}
