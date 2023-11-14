@@ -144,13 +144,15 @@
 			background-color: transparent;
 			box-shadow: none;
 			position: absolute;
-			nav > a {
-				color: _palette(blue-green) !important;
-	
-				&:hover{
-					color: palette(light-red) !important;
-				} 
-			}
+			nav { 
+				a {
+					color: _palette(blue-green) !important;
+		
+					&:hover{
+						color: palette(light-red) !important;
+					} 
+				}
+		}
 
 			&.style1 { .logo { strong { color: _palette(accent1); } } }
 			&.style2 
