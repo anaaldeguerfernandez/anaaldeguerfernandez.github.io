@@ -27,7 +27,15 @@
 		top: 0;
 		width: 100%;
 		z-index: _misc(z-index-base);
+		
+		a {
+			color: _palette(custom-text);
 
+			&:hover {
+				color: _palette(light-red);
+			}
+		}
+		
 		.logo {
 			border: 0;
 			display: inline-block;

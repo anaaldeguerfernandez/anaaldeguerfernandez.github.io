@@ -19,14 +19,6 @@
 			@include inner;
 		}
 
-		a {
-			color: _palette(custom-text);
-
-			&:hover {
-				color: _palette(light-red);
-			}
-		}
-
 		&nav > a {
 			color: _palette(blue-green);
 
