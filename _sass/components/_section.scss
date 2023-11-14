@@ -16,6 +16,11 @@
 			&:hover {
 				color: _palette(light-red);
 			}
+
+			&.artDownload{
+				display: grid;
+				justify-content: center;
+			}
 		}
 	}
 
@@ -35,6 +40,11 @@
 			> ul{
 				margin-top: 2em;
 			}}
+		}
+		&.downloadSection {
+			display: grid;
+			justify-content: center;
+			margin-bottom: 4em;
 		}
 	}
 
