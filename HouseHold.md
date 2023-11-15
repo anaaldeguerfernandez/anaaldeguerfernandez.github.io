@@ -1,5 +1,5 @@
 ---
-layout: rentingWebsite
+layout: HouseHold
 title: HouseHold
 landing-title: "HouseHold"
 nav-menu: true

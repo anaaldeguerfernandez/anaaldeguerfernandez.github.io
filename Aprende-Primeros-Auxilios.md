@@ -1,5 +1,5 @@
 ---
-layout: firstAidApp
+layout: Aprende-Primeros-Auxilios
 title: Aprende Primeros Auxilios
 landing-title: "Aprende Primeros Auxilios"
 nav-menu: true

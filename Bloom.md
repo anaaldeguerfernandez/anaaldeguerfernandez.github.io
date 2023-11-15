@@ -1,5 +1,5 @@
 ---
-layout: flowerShopApp
+layout: Bloom
 title: Bloom
 landing-title: "Bloom"
 nav-menu: true
