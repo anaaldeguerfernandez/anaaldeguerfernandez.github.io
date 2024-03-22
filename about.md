@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-image: assets/images/About-picture.svg
+image: assets/images/About-picture.png
 nav-menu: true
 show_tile: false
 ---
