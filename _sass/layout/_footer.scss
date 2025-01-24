@@ -60,6 +60,8 @@
 
 		@include breakpoint(small) {
 			.copyright {
+				margin: auto;
+
 				li {
 					display: flex;
 					border-left: 0;
@@ -69,7 +71,11 @@
 				}
 			}
 			ul {
+				display: grid;
+			}
+			.inner{
 				display: block;
+				text-align: center;
 			}
 		}
 	}
