@@ -58,7 +58,7 @@
 			justify-content: space-between;
 		}
 
-		@include breakpoint(xsmall) {
+		@include breakpoint(small) {
 			.copyright {
 				li {
 					display: flex;
@@ -67,6 +67,9 @@
 					padding-left: 0;
 					line-height: inherit;
 				}
+			}
+			ul {
+				display: block;
 			}
 		}
 	}
