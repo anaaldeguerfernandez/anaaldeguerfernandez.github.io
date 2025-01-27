@@ -72,9 +72,12 @@
 			div .breadcrumb {
 				display: grid;
 			}
-			.inner{
+			.inner{ 
 				display: grid;
 				justify-content: center;
+			}
+			ul .icons {
+				margin: 0 auto;
 			}
 		}
 	}
