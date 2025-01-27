@@ -49,6 +49,12 @@
 		}
 			
 		}
+
+		@include breakpoint(small) {
+			&.special {
+				display: grid;
+			}
+		}
 	}
 
 	header {
@@ -103,11 +109,6 @@
 					br {
 						display: none;
 					}
-				}
-			}
-			.inner {
-				&.special {
-					display: grid;
 				}
 			}
 		}
