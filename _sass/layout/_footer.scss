@@ -60,7 +60,6 @@
 
 		@include breakpoint(small) {
 			.copyright {
-				margin: auto;
 
 				li {
 					display: flex;
@@ -70,11 +69,11 @@
 					line-height: inherit;
 				}
 			}
-			ul {
+			div .breadcrumb {
 				display: grid;
 			}
 			.inner{
-				display: block;
+				display: grid;
 				text-align: center;
 			}
 		}
