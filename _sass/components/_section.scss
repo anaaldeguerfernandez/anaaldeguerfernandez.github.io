@@ -51,8 +51,10 @@
 		}
 
 		@include breakpoint(small) {
-			section .special {
-				display: grid;
+			section {
+				&.special {
+					display: grid;
+				}
 			}
 		}
 	}
