@@ -26,7 +26,7 @@ show_tile: false
 <section class="special" id="three">
     <div class="content inner">
 		<a href="./../CV_Ana-Aldeguer-Fernandez_Eng.pdf" class="image" download="CV_Ana-Aldeguer-Fernandez_Eng.pdf">
-			<img src="./../CV_eng.png" alt="CV - english" data-position="25% 25%" />
+			<img src="./assets/images/CV_eng.png" alt="CV - english" data-position="25% 25%" />
 		</a>
         <ul class="actions">
     		<li>
@@ -36,7 +36,7 @@ show_tile: false
     </div>
 	<div class="content inner">
     	<a href="./../CV_Ana-Aldeguer-Fernandez_Esp.pdf" class="image" download="CV_Ana-Aldeguer-Fernandez_Esp.pdf">
-    		<img src="./../CV_esp.png" alt="CV - español" data-position="25% 25%" />
+    		<img src="./assets/images/CV_esp.png" alt="CV - español" data-position="25% 25%" />
     	</a>
         <ul class="actions">
     		<li>
