@@ -3,7 +3,7 @@
 const checkbtnContainer = document.querySelector(".checkbtn");
 const checkbtn = document.querySelector("checkbtn i");
 
-checkbtnContainer.addEventListener("click", function () {
+void checkbtnContainer.addEventListener("click", function () {
   checkbtn.classList.toggle("fa-solid fa-xmark");
   checkbtn.classList.toggle("fa-solid fa-bars");
 });
