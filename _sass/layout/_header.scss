@@ -299,9 +299,12 @@
 					margin: 2em 0;
 					line-height: 30px;
 					font-size: large;
-					display: block;
 				}
 			
+				#check:checked~nav {
+					left: 0;
+				}
+
 				#check:checked~ul {
 					left: 0;
 				  }
