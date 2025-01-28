@@ -152,7 +152,7 @@
 			}
 
 			/* Menu icon */
-			.checkbtn {
+			#checkbtn {
 				font-size: 22px;
 				color: _palette(custom-text);
 				float: right;
@@ -275,7 +275,7 @@
 					}
 				}
 
-				.checkbtn {
+				#checkbtn {
 					display: block;
 
 					&:before {
