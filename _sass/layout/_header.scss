@@ -304,12 +304,12 @@
 					font-size: large;
 				}
 			
-				#check:checked~nav {
-					left: 0;
-				}
+				// #check:checked~nav {
+				// 	left: 0;
+				// }
 
 				#check:checked~ul {
-					left: 0;
+					display: none;
 				  }
 			}
 		}
