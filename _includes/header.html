@@ -5,18 +5,20 @@
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
 	<a href="{{ "" | absolute_url }}/" class="logo"><img class="imgLogo" src="./../assets/images/favicon.svg" alt="favicon"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
 	<nav>
-		<!-- Checkbox for toggling menu -->
-		<input type="checkbox" id="check" onclick="checkbtnContainer()"/>
+		<div id="navContent">
+			<!-- Checkbox for toggling menu -->
+			<input type="checkbox" id="check" onclick="checkbtnContainer()"/>
 
-		<!-- Menu icon -->
-		<label for="check" id="checkbtn">
-			<i class="fa-solid fa-bars"></i>
-		</label>
+			<!-- Menu icon -->
+			<label for="check" id="checkbtn">
+				<i class="fa-solid fa-bars"></i>
+			</label>
 
-		<ul>
-			<li><a href="./../index.html">Projects</a></li>
-			<li><a href="./../about.html">About</a></li>
-			<li><a href="./../contact.html">Contact</a></li>
-		</ul>
+			<ul>
+				<li><a href="./../index.html">Projects</a></li>
+				<li><a href="./../about.html">About</a></li>
+				<li><a href="./../contact.html">Contact</a></li>
+			</ul>
+		</div>
 	</nav>
 </header>
