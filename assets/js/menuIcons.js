@@ -6,4 +6,6 @@ const checkbtn = document.querySelector(".checkbtn i");
 checkbtnContainer.addEventListener("click", function () {
   checkbtn.classList.toggle("fa-solid fa-xmark");
   checkbtn.classList.toggle("fa-solid fa-bars");
+
+  return checkbtn.classList;
 });
