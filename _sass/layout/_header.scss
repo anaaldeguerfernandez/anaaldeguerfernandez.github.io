@@ -156,7 +156,7 @@
 				font-size: 22px;
 				color: _palette(custom-text);
 				float: right;
-				line-height: 2.1em;
+				line-height: 2.2em;
 				margin-right: 30px;
 				cursor: pointer;
 				display: none;
@@ -232,18 +232,19 @@
 		}
 
 		@include breakpoint(small) {
-			height: 2.75em;
-			line-height: 2.75em;
+			height: 3em;
+			line-height: 3em;
 
 			.logo {
 				padding: 0 1em;
 
-				&.strong .span {
+				&.strong {
 					display: none;
 				}
-				// &.span {
-				// 	display: none;
-				// }
+
+				&.span {
+					display: none;
+				}
 			}
 
 			header {
@@ -290,6 +291,10 @@
 					&:before {
 						display: none;
 					}
+
+					&:after {
+						content: "\f0c9";
+					}
 				}
 
 				ul {
@@ -317,7 +322,12 @@
 
 				#check:checked~ul {
 					left: 0;
-				  }
+				}
+				#check:checked~#checkbtn {
+					&:before {
+						content: "\f00d";
+					}
+				}
 			}
 		}
 
