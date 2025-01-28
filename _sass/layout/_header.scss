@@ -14,7 +14,7 @@
 	#header {
 		@include vendor('display', 'flex');
 		background-color: _palette(blue-green);
-		box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.15);
+		box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 		cursor: default;
 		font-weight: _font(weight-bold);
 		height: 3em;
@@ -176,7 +176,6 @@
 			@include vendor('transition-delay', '0.75s');
 			@include vendor('animation', 'none');
 			background-color: _palette(fg);
-			box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 			position: absolute;
 			nav { 
 				a {
