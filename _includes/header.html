@@ -5,10 +5,6 @@
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
 	<a href="{{ "" | absolute_url }}/" class="logo"><img class="imgLogo" src="./../assets/images/favicon.svg" alt="favicon"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
 	<nav>
-		<a href="./../index.html">Projects</a>
-		<a href="./../about.html">About</a>
-		<a href="./../contact.html">Contact</a>
-
 		<!-- Checkbox for toggling menu -->
 		<input type="checkbox" id="check" />
 
@@ -16,5 +12,11 @@
 		<label for="check" class="checkbtn">
 			<i class="fas fa-bars"></i>
 		</label>
+
+		<ul>
+			<li><a href="./../index.html">Projects</a></li>
+			<li><a href="./../about.html">About</a></li>
+			<li><a href="./../contact.html">Contact</a></li>
+		</ul>
 	</nav>
 </header>
