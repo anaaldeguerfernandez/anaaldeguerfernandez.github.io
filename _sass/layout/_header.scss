@@ -277,25 +277,32 @@
 
 				.checkbtn {
 					display: block;
+
+					&:before {
+						display: none;
+					}
 				}
 
 				ul {
 					position: fixed;
+					display: block;
 					width: 100%;
 					height: 100vh;
-					background: _palette(blue-green);
-					color: white;
+					background: _palette(custom-bg-light);
 					top: 3em;
 					text-align: center;
 					transition: all .5s;
 				  }
 
 				ul li {
-					display: block;
-					margin: 50px 0;
+					margin: 2em 0;
 					line-height: 30px;
 					font-size: large;
 				}
+
+				#check:checked~ul {
+					left: 0;
+				  }
 			
 				#check:checked~nav {
 					left: 0;
