@@ -299,14 +299,14 @@
 					line-height: 30px;
 					font-size: large;
 				}
-
-				#check:checked~ul {
-					left: 0;
-				  }
 			
 				#check:checked~nav {
 					left: 0;
 				}
+
+				#check:checked~ul {
+					left: 0;
+				  }
 			}
 		}
 
