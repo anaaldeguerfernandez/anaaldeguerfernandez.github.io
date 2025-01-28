@@ -26,6 +26,7 @@
 		top: 0;
 		width: 100%;
 		z-index: _misc(z-index-base);
+		box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 		
 		a {
 			color: _palette(custom-text);
@@ -81,7 +82,6 @@
 			@include vendor('flex-grow', '1');
 			height: inherit;
 			line-height: inherit;
-			box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 
 			ul {
 				list-style: none;
@@ -156,7 +156,7 @@
 				font-size: 22px;
 				color: _palette(custom-text);
 				float: right;
-				line-height: 2.3em;
+				line-height: 2.1em;
 				margin-right: 30px;
 				cursor: pointer;
 				display: none;
@@ -238,9 +238,12 @@
 			.logo {
 				padding: 0 1em;
 
-				&.strong, span {
+				&.strong .span {
 					display: none;
 				}
+				// &.span {
+				// 	display: none;
+				// }
 			}
 
 			header {
