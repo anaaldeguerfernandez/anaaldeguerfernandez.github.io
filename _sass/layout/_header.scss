@@ -238,11 +238,11 @@
 			.logo {
 				padding: 0 1em;
 
-				&.strong {
+				strong {
 					display: none;
 				}
 
-				&.span {
+				span {
 					display: none;
 				}
 			}
@@ -291,10 +291,6 @@
 					&:before {
 						display: none;
 					}
-
-					&:after {
-						content: "\f0c9";
-					}
 				}
 
 				ul {
@@ -322,12 +318,7 @@
 
 				#check:checked~ul {
 					left: 0;
-				}
-				#check:checked~#checkbtn {
-					&:before {
-						content: "\f00d";
-					}
-				}
+				  }
 			}
 		}
 
