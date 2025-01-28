@@ -14,7 +14,6 @@
 	#header {
 		@include vendor('display', 'flex');
 		background-color: _palette(blue-green);
-		box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 		cursor: default;
 		font-weight: _font(weight-bold);
 		height: 3em;
@@ -82,6 +81,7 @@
 			@include vendor('flex-grow', '1');
 			height: inherit;
 			line-height: inherit;
+			box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 
 			ul {
 				list-style: none;
@@ -237,6 +237,10 @@
 
 			.logo {
 				padding: 0 1em;
+
+				&.strong, span {
+					display: none;
+				}
 			}
 
 			header {
