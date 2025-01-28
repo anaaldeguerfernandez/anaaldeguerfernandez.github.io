@@ -283,16 +283,18 @@
 					position: fixed;
 					width: 100%;
 					height: 100vh;
-					background: red;
+					background: _palette(blue-green);
+					color: white;
 					top: 3em;
 					text-align: center;
 					transition: all .5s;
 				  }
 
-				nav ul li {
+				ul li {
 					display: block;
 					margin: 50px 0;
 					line-height: 30px;
+					font-size: large;
 				}
 			
 				#check:checked~nav {
