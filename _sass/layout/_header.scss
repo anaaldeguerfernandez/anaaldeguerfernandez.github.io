@@ -143,10 +143,10 @@
 						}
 					}
 				}
-				color: _palette(fg);
+				color: _palette(blue-green);
 
 				&:hover{
-					color: _palette(custom-text);
+					color: _palette(light-red);
 				}
 				
 			}
@@ -175,7 +175,7 @@
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			@include vendor('transition-delay', '0.75s');
 			@include vendor('animation', 'none');
-			background-color: _palette(fg);
+			background-color: _palette(custom-bg-light);
 			position: absolute;
 			nav { 
 				a {
