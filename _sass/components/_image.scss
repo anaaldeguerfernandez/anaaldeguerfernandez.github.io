@@ -9,14 +9,6 @@
 img {
     max-width: 100%;
 
-	&#firstAidBg{
-		background-position-x: -9em;
-	}
-	
-	&#bloomBg{
-		background-position-x: -16em;
-	}
-
 	&.round{
 		border-radius: 20px;
 	}
@@ -73,6 +65,14 @@ img {
 
 			img {
 				width: 100%;
+		
+				#firstAidBg{
+					background-position-x: -9em;
+				}
+				
+				#bloomBg{
+					background-position-x: -16em;
+				}
 			}
 
 			@include breakpoint(small) {
