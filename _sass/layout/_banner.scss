@@ -152,7 +152,7 @@
 			height: auto;
 			margin-bottom: -2.75em;
 			max-height: none;
-			min-height: 30em;
+			min-height: 31em;
 			top: -2.75em;
 
 			h1 {
@@ -172,7 +172,6 @@
 
 			&.major {
 				height: auto;
-				min-height: 0;
 				max-height: none;
 			}
 		}
