@@ -37,6 +37,16 @@
 			&.inner{
 				padding: 2em;
 
+				& img {
+					#firstAidBg {
+						background-position-x: -8em;
+					}
+						
+					#bloomBg {
+						background-position-x: -16em;
+					}
+				}
+
 				& div .downloadSection {
 					display: grid;
 					justify-content: center;
@@ -111,15 +121,6 @@
 					br {
 						display: none;
 					}
-				}
-			}
-			img {
-				#firstAidBg{
-					background-position-x: -8em;
-				}
-					
-				#bloomBg{
-					background-position-x: -16em;
 				}
 			}
 		}
