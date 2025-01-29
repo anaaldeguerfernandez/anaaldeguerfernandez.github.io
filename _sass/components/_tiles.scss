@@ -169,6 +169,11 @@
 
 				header {
 					width: 100%;
+					top: 8em;
+
+					&.h2 {
+						margin: 0;
+					}
 				}
 
 				h3 {
@@ -176,12 +181,6 @@
 				}
 				&:before {
 					display: none;
-				}
-				h2 {
-					color: _palette(custom-text);
-				}
-				p {
-					color: _palette(custom-text);
 				}
 			}
 		}
