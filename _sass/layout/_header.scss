@@ -13,7 +13,7 @@
 
 	#header {
 		@include vendor('display', 'flex');
-		background-color: _palette(blue-green);
+		background-color: _palette(custom-bg-light);
 		cursor: default;
 		font-weight: _font(weight-bold);
 		height: 3em;
@@ -29,7 +29,7 @@
 		box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 		
 		a {
-			color: _palette(custom-text);
+			color: _palette(blue-green);
 
 			&:hover {
 				color: _palette(light-red);
