@@ -1,8 +1,10 @@
 <!-- Wrapper -->
 <div id="wrapper">
 
+
+	<!-- {% if page.layout == "home" %} class="alt"{% endif %} -->
 <!-- Header -->
-<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
+<header id="header"{% if page.layout == "landing" %} class="style2"{% endif %}>
 	<a href="{{ "" | absolute_url }}/" class="logo"><img class="imgLogo" src="./../assets/images/favicon.svg" alt="favicon"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
 	<nav>
 		<div id="navContent">
