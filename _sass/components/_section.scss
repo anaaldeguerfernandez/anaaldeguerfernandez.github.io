@@ -33,19 +33,22 @@
 			text-align: center;
 			display: flex;
 		}
-		> div{
+		#one {
 			&.inner{
-				padding: 2em;
-
-				> img{
+				img{
 					#firstAidBg {
 						background-position-x: -8em;
 					}
-							
+								
 					#bloomBg {
 						background-position-x: -16em;
 					}
 				}
+			}
+		}
+		> div{
+			&.inner{
+				padding: 2em;
 
 				& div .downloadSection {
 					display: grid;
