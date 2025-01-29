@@ -69,16 +69,6 @@ img {
 
 			@include breakpoint(small) {
 				margin: (_size(element-margin) * 0.75) 0;
-
-				img {
-					#firstAidBg{
-						background-position-x: -9em;
-					}
-					
-					#bloomBg{
-						background-position-x: -16em;
-					}
-				}
 			}
 		}
 	}
