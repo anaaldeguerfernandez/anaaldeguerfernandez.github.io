@@ -8,14 +8,11 @@
     <span class="image">
       <img src="{{ tile.image }}" alt="{{ tile.title }}" />
     </span>
-    <header>
-      <h2>
-        <a href="{{ tile.url  | relative_url }}" class="link"
-          >{{ tile.title }}</a
-        >
-      </h2>
-      <p>{{ tile.description }}</p>
-    </header>
+    <header></header>
+    <h2>
+      <a href="{{ tile.url  | relative_url }}" class="link">{{ tile.title }}</a>
+    </h2>
+    <p>{{ tile.description }}</p>
   </article>
   {% endfor %}
 </section>
