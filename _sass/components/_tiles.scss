@@ -163,9 +163,13 @@
 		@include breakpoint(small) {
 			article {
 				@include padding(3em, 1.5em);
-				height: 16em;
+				height: 25em;
 				max-height: none;
 				min-height: 0;
+
+				header {
+					width: 100%;
+				}
 
 				h3 {
 					font-size: 1.5em;
