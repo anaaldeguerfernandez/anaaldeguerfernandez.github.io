@@ -155,7 +155,7 @@
 
 		@include breakpoint(medium) {
 			article {
-				width: 50% !important;
+				width: 100% !important;
 			}
 		}
 
@@ -168,6 +168,15 @@
 
 				h3 {
 					font-size: 1.5em;
+				}
+				&:before {
+					display: none;
+				}
+				h2 {
+					color: _palette(custom-text);
+				}
+				p {
+					color: _palette(custom-text);
 				}
 			}
 		}
